@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.68d on Mon Nov 13 22:46:19 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "Misout" LOCATE = SITE "G11" LEVEL 1;
+COMP "clk" LOCATE = SITE "V10" LEVEL 1;
+PIN clk_pin<0> = BEL "clk" PINNAME PAD;
+PIN "clk_pin<0>" CLOCK_DEDICATED_ROUTE = FALSE;
+COMP "ssout" LOCATE = SITE "D12" LEVEL 1;
+COMP "Misoin" LOCATE = SITE "F12" LEVEL 1;
+COMP "clkout" LOCATE = SITE "E12" LEVEL 1;
+COMP "ssin" LOCATE = SITE "C4" LEVEL 1;
+SCHEMATIC END;
+

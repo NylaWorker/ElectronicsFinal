@@ -1,0 +1,15 @@
+//! **************************************************************************
+// Written by: Map P.68d on Wed Nov 08 10:47:24 2017
+//! **************************************************************************
+
+SCHEMATIC START;
+COMP "R1" LOCATE = SITE "M10" LEVEL 1;
+COMP "clk" LOCATE = SITE "V12" LEVEL 1;
+COMP "lat" LOCATE = SITE "N10" LEVEL 1;
+COMP "latin" LOCATE = SITE "A8" LEVEL 1;
+COMP "R1in" LOCATE = SITE "B8" LEVEL 1;
+COMP "clkin" LOCATE = SITE "V10" LEVEL 1;
+COMP "A" LOCATE = SITE "T12" LEVEL 1;
+COMP "Ain" LOCATE = SITE "C4" LEVEL 1;
+SCHEMATIC END;
+

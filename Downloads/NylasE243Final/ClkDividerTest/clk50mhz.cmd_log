@@ -1,0 +1,141 @@
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/ClkDividerTest/clk50mhz.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 clk50mhz.ngc clk50mhz.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o clk50mhz_map.ncd clk50mhz.ngd clk50mhz.pcf 
+par -w -intstyle ise -ol high -mt off clk50mhz_map.ncd clk50mhz.ncd clk50mhz.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml clk50mhz.twx clk50mhz.ncd -o clk50mhz.twr clk50mhz.pcf 
+bitgen -intstyle ise -f clk50mhz.ut clk50mhz.ncd 

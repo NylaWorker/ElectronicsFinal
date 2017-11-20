@@ -1,0 +1,4 @@
+#!/bin/csh
+
+vcs -R -Mupdate math.v -P math.tab -l vcs.log \
+        math.c -CFLAGS "-I$VCS_HOME/include"

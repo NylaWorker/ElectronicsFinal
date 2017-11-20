@@ -1,0 +1,8 @@
+INTSTYLE=ise
+INFILE=C:\Users\physics\Desktop\NylasE243Final\LEDandClock\LEDandClock.ncd
+OUTFILE=C:\Users\physics\Desktop\NylasE243Final\LEDandClock\LEDandClock.bit
+FAMILY=Spartan6
+PART=xc6slx16-3csg324
+WORKINGDIR=C:\Users\physics\Desktop\NylasE243Final\LEDandClock
+LICENSE=WebPack
+USER_INFO=210786556_0_0_814

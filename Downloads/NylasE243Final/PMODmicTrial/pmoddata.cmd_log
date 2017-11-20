@@ -1,0 +1,30 @@
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 pmoddata.ngc pmoddata.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pmoddata_map.ncd pmoddata.ngd pmoddata.pcf 
+par -w -intstyle ise -ol high -mt off pmoddata_map.ncd pmoddata.ncd pmoddata.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pmoddata.twx pmoddata.ncd -o pmoddata.twr pmoddata.pcf 
+bitgen -intstyle ise -f pmoddata.ut pmoddata.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 pmoddata.ngc pmoddata.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pmoddata_map.ncd pmoddata.ngd pmoddata.pcf 
+par -w -intstyle ise -ol high -mt off pmoddata_map.ncd pmoddata.ncd pmoddata.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pmoddata.twx pmoddata.ncd -o pmoddata.twr pmoddata.pcf 
+bitgen -intstyle ise -f pmoddata.ut pmoddata.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 pmoddata.ngc pmoddata.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pmoddata_map.ncd pmoddata.ngd pmoddata.pcf 
+par -w -intstyle ise -ol high -mt off pmoddata_map.ncd pmoddata.ncd pmoddata.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pmoddata.twx pmoddata.ncd -o pmoddata.twr pmoddata.pcf 
+bitgen -intstyle ise -f pmoddata.ut pmoddata.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 pmoddata.ngc pmoddata.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o pmoddata_map.ncd pmoddata.ngd pmoddata.pcf 
+par -w -intstyle ise -ol high -mt off pmoddata_map.ncd pmoddata.ncd pmoddata.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml pmoddata.twx pmoddata.ncd -o pmoddata.twr pmoddata.pcf 
+bitgen -intstyle ise -f pmoddata.ut pmoddata.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/PMODmicTrial/pmoddata.syr" 

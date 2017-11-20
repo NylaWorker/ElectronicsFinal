@@ -1,0 +1,12 @@
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDandClock/LEDandClock.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 LEDandClock.ngc LEDandClock.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o LEDandClock_map.ncd LEDandClock.ngd LEDandClock.pcf 
+par -w -intstyle ise -ol high -mt off LEDandClock_map.ncd LEDandClock.ncd LEDandClock.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml LEDandClock.twx LEDandClock.ncd -o LEDandClock.twr LEDandClock.pcf 
+bitgen -intstyle ise -f LEDandClock.ut LEDandClock.ncd 

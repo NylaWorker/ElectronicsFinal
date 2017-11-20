@@ -1,0 +1,425 @@
+Release 14.6 - xst P.68d (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+--> Parameter TMPDIR set to xst/projnav.tmp
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.06 secs
+ 
+--> Parameter xsthdpdir set to xst
+
+
+Total REAL time to Xst completion: 0.00 secs
+Total CPU time to Xst completion: 0.07 secs
+ 
+--> Reading design: LEDandClock.prj
+
+TABLE OF CONTENTS
+  1) Synthesis Options Summary
+  2) HDL Parsing
+  3) HDL Elaboration
+  4) HDL Synthesis
+       4.1) HDL Synthesis Report
+  5) Advanced HDL Synthesis
+       5.1) Advanced HDL Synthesis Report
+  6) Low Level Synthesis
+  7) Partition Report
+  8) Design Summary
+       8.1) Primitive and Black Box Usage
+       8.2) Device utilization summary
+       8.3) Partition Resource Summary
+       8.4) Timing Report
+            8.4.1) Clock Information
+            8.4.2) Asynchronous Control Signals Information
+            8.4.3) Timing Summary
+            8.4.4) Timing Details
+            8.4.5) Cross Clock Domains Report
+
+
+=========================================================================
+*                      Synthesis Options Summary                        *
+=========================================================================
+---- Source Parameters
+Input File Name                    : "LEDandClock.prj"
+Ignore Synthesis Constraint File   : NO
+
+---- Target Parameters
+Output File Name                   : "LEDandClock"
+Output Format                      : NGC
+Target Device                      : xc6slx16-3-csg324
+
+---- Source Options
+Top Module Name                    : LEDandClock
+Automatic FSM Extraction           : YES
+FSM Encoding Algorithm             : Auto
+Safe Implementation                : No
+FSM Style                          : LUT
+RAM Extraction                     : Yes
+RAM Style                          : Auto
+ROM Extraction                     : Yes
+Shift Register Extraction          : YES
+ROM Style                          : Auto
+Resource Sharing                   : YES
+Asynchronous To Synchronous        : NO
+Shift Register Minimum Size        : 2
+Use DSP Block                      : Auto
+Automatic Register Balancing       : No
+
+---- Target Options
+LUT Combining                      : Auto
+Reduce Control Sets                : Auto
+Add IO Buffers                     : YES
+Global Maximum Fanout              : 100000
+Add Generic Clock Buffer(BUFG)     : 16
+Register Duplication               : YES
+Optimize Instantiated Primitives   : NO
+Use Clock Enable                   : Auto
+Use Synchronous Set                : Auto
+Use Synchronous Reset              : Auto
+Pack IO Registers into IOBs        : Auto
+Equivalent register Removal        : YES
+
+---- General Options
+Optimization Goal                  : Speed
+Optimization Effort                : 1
+Power Reduction                    : NO
+Keep Hierarchy                     : No
+Netlist Hierarchy                  : As_Optimized
+RTL Output                         : Yes
+Global Optimization                : AllClockNets
+Read Cores                         : YES
+Write Timing Constraints           : NO
+Cross Clock Analysis               : NO
+Hierarchy Separator                : /
+Bus Delimiter                      : <>
+Case Specifier                     : Maintain
+Slice Utilization Ratio            : 100
+BRAM Utilization Ratio             : 100
+DSP48 Utilization Ratio            : 100
+Auto BRAM Packing                  : NO
+Slice Utilization Ratio Delta      : 5
+
+=========================================================================
+
+
+=========================================================================
+*                          HDL Parsing                                  *
+=========================================================================
+Analyzing Verilog file "C:\Users\physics\Desktop\NylasE243Final\LEDandClock\LEDandClock.v" into library work
+Parsing module <LEDandClock>.
+
+=========================================================================
+*                            HDL Elaboration                            *
+=========================================================================
+
+Elaborating module <LEDandClock>.
+WARNING:HDLCompiler:413 - "C:\Users\physics\Desktop\NylasE243Final\LEDandClock\LEDandClock.v" Line 87: Result of 32-bit expression is truncated to fit in 31-bit target.
+
+=========================================================================
+*                           HDL Synthesis                               *
+=========================================================================
+
+Synthesizing Unit <LEDandClock>.
+    Related source file is "C:\Users\physics\Desktop\NylasE243Final\LEDandClock\LEDandClock.v".
+    Set property "LOC = A8" for signal <Latin>.
+    Set property "LOC = C4" for signal <Ain>.
+    Set property "LOC = D9" for signal <Cin>.
+    Set property "LOC = B8" for signal <Bin>.
+    Set property "CLOCK_DEDICATED_ROUTE = FALSE" for signal <Clkin>.
+    Set property "LOC = V10" for signal <Clkin>.
+    Set property "LOC = L7" for signal <Clk>.
+    Set property "LOC = T10" for signal <R1in>.
+    Set property "LOC = T9" for signal <R2in>.
+    Set property "LOC = N8" for signal <G1in>.
+    Set property "LOC = U8" for signal <G2in>.
+    Set property "LOC = V9" for signal <B1in>.
+    Set property "LOC = M8" for signal <B2in>.
+    Set property "LOC = P11" for signal <B2>.
+    Set property "LOC = N10" for signal <B1>.
+    Set property "LOC = T12" for signal <R1>.
+    Set property "LOC = V12" for signal <R2>.
+    Set property "LOC = K2" for signal <G1>.
+    Set property "LOC = K1" for signal <G2>.
+    Set property "LOC = H3" for signal <Lat>.
+    Set property "LOC = G11" for signal <A>.
+    Set property "LOC = F10" for signal <B>.
+    Set property "LOC = F11" for signal <C>.
+    Found 1-bit register for signal <Clk>.
+    Found 31-bit register for signal <count>.
+    Found 31-bit adder for signal <count[30]_GND_1_o_add_1_OUT> created at line 87.
+    Summary:
+	inferred   1 Adder/Subtractor(s).
+	inferred  32 D-type flip-flop(s).
+Unit <LEDandClock> synthesized.
+
+=========================================================================
+HDL Synthesis Report
+
+Macro Statistics
+# Adders/Subtractors                                   : 1
+ 31-bit adder                                          : 1
+# Registers                                            : 2
+ 1-bit register                                        : 1
+ 31-bit register                                       : 1
+
+=========================================================================
+
+=========================================================================
+*                       Advanced HDL Synthesis                          *
+=========================================================================
+
+
+Synthesizing (advanced) Unit <LEDandClock>.
+The following registers are absorbed into counter <count>: 1 register on signal <count>.
+Unit <LEDandClock> synthesized (advanced).
+
+=========================================================================
+Advanced HDL Synthesis Report
+
+Macro Statistics
+# Counters                                             : 1
+ 31-bit up counter                                     : 1
+# Registers                                            : 1
+ Flip-Flops                                            : 1
+
+=========================================================================
+
+=========================================================================
+*                         Low Level Synthesis                           *
+=========================================================================
+
+Optimizing unit <LEDandClock> ...
+WARNING:Xst:1710 - FF/Latch <count_30> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_29> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_28> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_27> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_26> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_25> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_24> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_23> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_22> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_21> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_20> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_19> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_18> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_17> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_16> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_15> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_14> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_13> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_12> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_11> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_10> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_9> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_8> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_7> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_6> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_5> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_4> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_3> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+WARNING:Xst:1895 - Due to other FF/Latch trimming, FF/Latch <count_2> (without init value) has a constant value of 0 in block <LEDandClock>. This FF/Latch will be trimmed during the optimization process.
+
+Mapping all equations...
+Building and optimizing final netlist ...
+Found area constraint ratio of 100 (+ 5) on block LEDandClock, actual ratio is 0.
+
+Final Macro Processing ...
+
+=========================================================================
+Final Register Report
+
+Macro Statistics
+# Registers                                            : 3
+ Flip-Flops                                            : 3
+
+=========================================================================
+
+=========================================================================
+*                           Partition Report                            *
+=========================================================================
+
+Partition Implementation Status
+-------------------------------
+
+  No Partitions were found in this design.
+
+-------------------------------
+
+=========================================================================
+*                            Design Summary                             *
+=========================================================================
+
+Top Level Output File Name         : LEDandClock.ngc
+
+Primitive and Black Box Usage:
+------------------------------
+# BELS                             : 9
+#      GND                         : 1
+#      INV                         : 1
+#      LUT1                        : 1
+#      LUT2                        : 1
+#      LUT3                        : 1
+#      MUXCY                       : 1
+#      VCC                         : 1
+#      XORCY                       : 2
+# FlipFlops/Latches                : 3
+#      FD                          : 1
+#      FDR                         : 2
+# Clock Buffers                    : 1
+#      BUFGP                       : 1
+# IO Buffers                       : 21
+#      IBUF                        : 10
+#      OBUF                        : 11
+
+Device utilization summary:
+---------------------------
+
+Selected Device : 6slx16csg324-3 
+
+
+Slice Logic Utilization: 
+ Number of Slice Registers:               3  out of  18224     0%  
+ Number of Slice LUTs:                    4  out of   9112     0%  
+    Number used as Logic:                 4  out of   9112     0%  
+
+Slice Logic Distribution: 
+ Number of LUT Flip Flop pairs used:      7
+   Number with an unused Flip Flop:       4  out of      7    57%  
+   Number with an unused LUT:             3  out of      7    42%  
+   Number of fully used LUT-FF pairs:     0  out of      7     0%  
+   Number of unique control sets:         2
+
+IO Utilization: 
+ Number of IOs:                          22
+ Number of bonded IOBs:                  22  out of    232     9%  
+
+Specific Feature Utilization:
+ Number of BUFG/BUFGCTRLs:                1  out of     16     6%  
+
+---------------------------
+Partition Resource Summary:
+---------------------------
+
+  No Partitions were found in this design.
+
+---------------------------
+
+
+=========================================================================
+Timing Report
+
+NOTE: THESE TIMING NUMBERS ARE ONLY A SYNTHESIS ESTIMATE.
+      FOR ACCURATE TIMING INFORMATION PLEASE REFER TO THE TRACE REPORT
+      GENERATED AFTER PLACE-and-ROUTE.
+
+Clock Information:
+------------------
+-----------------------------------+------------------------+-------+
+Clock Signal                       | Clock buffer(FF name)  | Load  |
+-----------------------------------+------------------------+-------+
+Clkin                              | BUFGP                  | 3     |
+-----------------------------------+------------------------+-------+
+
+Asynchronous Control Signals Information:
+----------------------------------------
+No asynchronous control signals found in this design
+
+Timing Summary:
+---------------
+Speed Grade: -3
+
+   Minimum period: 2.452ns (Maximum Frequency: 407.913MHz)
+   Minimum input arrival time before clock: No path found
+   Maximum output required time after clock: 3.634ns
+   Maximum combinational path delay: 4.372ns
+
+Timing Details:
+---------------
+All values displayed in nanoseconds (ns)
+
+=========================================================================
+Timing constraint: Default period analysis for Clock 'Clkin'
+  Clock period: 2.452ns (frequency: 407.913MHz)
+  Total number of paths / destination ports: 10 / 5
+-------------------------------------------------------------------------
+Delay:               2.452ns (Levels of Logic = 1)
+  Source:            count_1 (FF)
+  Destination:       count_0 (FF)
+  Source Clock:      Clkin rising
+  Destination Clock: Clkin rising
+
+  Data Path: count_1 to count_0
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FDR:C->Q              3   0.447   0.755  count_1 (count_1)
+     LUT2:I0->O            2   0.203   0.616  GND_1_o_GND_1_o_equal_3_o<30>1 (GND_1_o_GND_1_o_equal_3_o)
+     FDR:R                     0.430          count_0
+    ----------------------------------------
+    Total                      2.452ns (1.080ns logic, 1.372ns route)
+                                       (44.1% logic, 55.9% route)
+
+=========================================================================
+Timing constraint: Default OFFSET OUT AFTER for Clock 'Clkin'
+  Total number of paths / destination ports: 1 / 1
+-------------------------------------------------------------------------
+Offset:              3.634ns (Levels of Logic = 1)
+  Source:            Clk (FF)
+  Destination:       Clk (PAD)
+  Source Clock:      Clkin rising
+
+  Data Path: Clk to Clk
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     FD:C->Q               2   0.447   0.616  Clk (Clk_OBUF)
+     OBUF:I->O                 2.571          Clk_OBUF (Clk)
+    ----------------------------------------
+    Total                      3.634ns (3.018ns logic, 0.616ns route)
+                                       (83.0% logic, 17.0% route)
+
+=========================================================================
+Timing constraint: Default path analysis
+  Total number of paths / destination ports: 10 / 10
+-------------------------------------------------------------------------
+Delay:               4.372ns (Levels of Logic = 2)
+  Source:            R1in (PAD)
+  Destination:       R1 (PAD)
+
+  Data Path: R1in to R1
+                                Gate     Net
+    Cell:in->out      fanout   Delay   Delay  Logical Name (Net Name)
+    ----------------------------------------  ------------
+     IBUF:I->O             1   1.222   0.579  R1in_IBUF (R1_OBUF)
+     OBUF:I->O                 2.571          R1_OBUF (R1)
+    ----------------------------------------
+    Total                      4.372ns (3.793ns logic, 0.579ns route)
+                                       (86.8% logic, 13.2% route)
+
+=========================================================================
+
+Cross Clock Domains Report:
+--------------------------
+
+Clock to Setup on destination clock Clkin
+---------------+---------+---------+---------+---------+
+               | Src:Rise| Src:Fall| Src:Rise| Src:Fall|
+Source Clock   |Dest:Rise|Dest:Rise|Dest:Fall|Dest:Fall|
+---------------+---------+---------+---------+---------+
+Clkin          |    2.452|         |         |         |
+---------------+---------+---------+---------+---------+
+
+=========================================================================
+
+
+Total REAL time to Xst completion: 4.00 secs
+Total CPU time to Xst completion: 4.02 secs
+ 
+--> 
+
+Total memory usage is 298816 kilobytes
+
+Number of errors   :    0 (   0 filtered)
+Number of warnings :   30 (   0 filtered)
+Number of infos    :    0 (   0 filtered)
+

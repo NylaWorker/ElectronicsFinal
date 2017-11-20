@@ -1,0 +1,227 @@
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 
+xst -intstyle ise -ifn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.xst" -ofn "C:/Users/physics/Desktop/NylasE243Final/LEDCllkWithDiftimes/ledwclkmo.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc6slx16-csg324-3 ledwclkmo.ngc ledwclkmo.ngd  
+map -intstyle ise -p xc6slx16-csg324-3 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -global_opt off -mt off -ir off -pr off -lc off -power off -o ledwclkmo_map.ncd ledwclkmo.ngd ledwclkmo.pcf 
+par -w -intstyle ise -ol high -mt off ledwclkmo_map.ncd ledwclkmo.ncd ledwclkmo.pcf 
+trce -intstyle ise -v 3 -s 3 -n 3 -fastpaths -xml ledwclkmo.twx ledwclkmo.ncd -o ledwclkmo.twr ledwclkmo.pcf 
+bitgen -intstyle ise -f ledwclkmo.ut ledwclkmo.ncd 

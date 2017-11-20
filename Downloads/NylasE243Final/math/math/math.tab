@@ -1,0 +1,7 @@
+// math.tab - VCS tab file for linking in the $math routines 
+$exp    check=math_check1 call=exp_call   size=r
+$log    check=math_check1 call=log_call   size=r
+$log10  check=math_check1 call=log10_call size=r
+$sin    check=math_check1 call=sin_call   size=r
+$sqrt   check=math_check1 call=sqrt_call  size=r
+$pow    check=math_check2 call=pow_call   size=r
